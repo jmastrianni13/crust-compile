@@ -19,7 +19,7 @@ jobs:
           osx-version: "12.3"
 
       - name: Install Rustup targets
-        run: rustup target add x86_64-unknown-linux-musl aarch-unknown-linux-musl x86_64-apple-darwin aarch64-apple-darwin
+        run: rustup target add x86_64-unknown-linux-musl aarch64-unknown-linux-musl x86_64-apple-darwin aarch64-apple-darwin
 
       - name: Checkout source code
         uses: actions/checkout@v4
